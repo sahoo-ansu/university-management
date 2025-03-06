@@ -21,7 +21,7 @@ Student and Teacher Details: Maintains comprehensive records of students and tea
 <br>
 Update Information: Allows updating of student and teacher information as needed.
 <br><br>
-Technology Stack<br>
+# Technology Stack<br>
 Frontend: Java Swing and AWT for creating the graphical user interface (GUI).
 <br>
 Backend: MySQL for database management.
@@ -29,8 +29,8 @@ Backend: MySQL for database management.
 IDE: IntelliJ IDEA.
 <br>
 Libraries: Various Java Swing and AWT libraries such as javax.swing.JFrame, javax.swing.JButton, javax.swing.JLabel, java.awt.event.ActionEvent, and more.
-<br>
-Modules Description<br>
+<br><br>
+# Modules Description<br>
 Login Window: The entry point of the system, ensuring secure access to respective dashboards and functionalities.
 <br>
 Add Faculty and Student: Modules for adding new faculty members and students, storing their information in the MySQL database.
@@ -41,8 +41,8 @@ Fee Structure: Manages the fee details for different courses and students.
 <br>
 Student and Teacher Details: Maintains comprehensive records of students and teachers, including leave management.
 <br>
-Update Information: Allows updating of student and teacher information as needed.<br>
-Benefits<br>
+Update Information: Allows updating of student and teacher information as needed.<br><br>
+# Benefits<br>
 Efficiency: Streamlines administrative processes, reducing manual work and errors.
 <br>
 Accessibility: Provides easy access to information for administrators, faculty, and students.
