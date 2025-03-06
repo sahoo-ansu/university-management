@@ -50,5 +50,5 @@ Accessibility: Provides easy access to information for administrators, faculty, 
 Security: Ensures secure access to sensitive information through authentication and authorization mechanisms.
 <br>
 Scalability: Can be scaled to accommodate the growing needs of the university.
-<br>
+<br><br>
 This system aims to facilitate efficient management of faculty, students, examinations, and other administrative tasks, making the university's operations more streamlined and effective
