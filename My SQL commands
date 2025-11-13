@@ -1,1 +1,39 @@
+-- Database: university_management
+CREATE DATABASE IF NOT EXISTS university_management;
+USE university_management;
+
+-- Table: students
+CREATE TABLE students (
+    student_id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    department VARCHAR(50),
+    email VARCHAR(100),
+    phone VARCHAR(15)
+);
+
+-- Table: courses
+CREATE TABLE courses (
+    course_id INT AUTO_INCREMENT PRIMARY KEY,
+    course_name VARCHAR(100),
+    credits INT
+);
+
+-- Table: enrollment
+CREATE TABLE enrollment (
+    enrollment_id INT AUTO_INCREMENT PRIMARY KEY,
+    student_id INT,
+    course_id INT,
+    FOREIGN KEY (student_id) REFERENCES students(student_id),
+    FOREIGN KEY (course_id) REFERENCES courses(course_id)
+);
+
+-- Insert sample data
+INSERT INTO students (name, department, email, phone)
+VALUES ('Anshuman Sahu', 'CSE', 'anshuman@example.com', '9876543210');
+
+INSERT INTO courses (course_name, credits)
+VALUES ('Database Systems', 4), ('Operating Systems', 3);
+
+INSERT INTO enrollment (student_id, course_id)
+VALUES (1, 1), (1, 2);
 
